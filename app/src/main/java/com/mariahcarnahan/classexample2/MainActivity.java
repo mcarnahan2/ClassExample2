@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                ((TextView) findViewById(R.id.textView)).setText("Gueten tag, weld!!");
+                ((TextView) findViewById(R.id.textView)).setText("Ciao, bello!!");
             }
         });
     }
